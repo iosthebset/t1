@@ -15,5 +15,6 @@ import { HeaderComponent } from './shared/layout/header/header.component';
     BrowserModule
   ],
   providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
