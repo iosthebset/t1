@@ -9,7 +9,7 @@ import { HeaderComponent } from './shared/layout/header/header.component';
   declarations: [
     AppComponent,
     FooterComponent,
-    HeaderComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule
