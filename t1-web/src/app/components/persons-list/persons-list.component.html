@@ -1,0 +1,19 @@
+<h2>It works</h2>
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" placeholder="name" #nameInput>
+        </div>
+        <div class="form-group">
+            <label>Age</label>
+            <input type="number" class="form-control" value="1" #ageInput>
+        </div>
+        <button class="btn btn-primary" (click)="onAddPerson(nameInput, ageInput)">Add</button>
+    </div>
+    <div class="col-md-8">
+        <ul>
+            <app-personitem *ngFor="let person of Persons" [user]="person"></app-personitem>
+        </ul>
+    </div>
+</div>
