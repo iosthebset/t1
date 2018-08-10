@@ -10,6 +10,7 @@ export class PersonItemComponent implements OnInit {
 
   @Input() user: Person;
 
+
   constructor() { }
 
   ngOnInit() {
